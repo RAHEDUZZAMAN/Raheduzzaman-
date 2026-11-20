@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md Rahed Uzzaman — Aspiring Software Engineer & Cricket Tech Enthusiast</title>
+    <meta
+      name="description"
+      content="Portfolio of Md Rahed Uzzaman, Computer Science and Engineering undergraduate at Daffodil International University (DIU). Focused on Software Engineering, DBMS, Compiler Design, and Cricket Tech."
+    />
+    <meta
+      property="og:title"
+      content="Md Rahed Uzzaman — Aspiring Software Engineer & Cricket Tech Enthusiast"
+    />
+    <meta
+      property="og:description"
+      content="Explore projects in PHP & MySQL, Flex & Bison compiler design, and academic work at Daffodil International University."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('rahed-theme');
+          var root = document.documentElement;
+          if (saved === 'light') {
+            root.classList.remove('dark');
+          } else {
+            root.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-zinc-50 text-zinc-900 dark:bg-[#050507] dark:text-zinc-100 antialiased selection:bg-emerald-500/25 selection:text-emerald-700 dark:selection:text-emerald-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
